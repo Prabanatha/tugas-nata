@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesan buat kamu</title>
+</head>
+<body>
+    <h1 id="judul">kamu cantik sekali</h1>
+    <button id="ubahTeksButton">tekan disini</button>
+
+    <script>
+        // Mengakses elemen tombol dan elemen h1
+        const button = document.getElementById("ubahTeksButton");
+        const judul = document.getElementById("judul");
+
+        // Menambahkan event listener ke tombol
+        button.addEventListener("click", function() {
+            // Mengubah teks h1 saat tombol diklik
+            judul.textContent = "tapi boong hahahahah hayukkk papale papale pap";
+        });
+    </script>
+</body>
+</html>
